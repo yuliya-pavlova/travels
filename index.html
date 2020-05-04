@@ -14,25 +14,19 @@
     <div class="page">
         <header class="header page__header">
             <img class="header__logo" src="./images/logo.svg" alt="Логотип">
-            <!-- Отлично! логотип загружен в векторном формате -->
 
             <ul class="header__nav-lang">
                 <li><a href="#" class="header__lang header__lang_selected">Ru</a></li>
                 <li><a href="#" class="header__lang">En</a></li>
-                <!-- Отлично! Выбранный язык реализован с помощью модификатора -->
             </ul>
         </header>
 
         <main class="content">
             <section class="lead page__lead">
                 <h1 class="lead__title">Путешествия по России</h1>
-                <!-- Отлично! правильно выделен заголовок страницы и обозначен тегом h1 -->
                 <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
                 <img class="lead__image" src="./images/polka.jpg" alt="Дорога в поезде">
                 <figure class="lead__caption">ваша полка - верхняя</figure>
-                <!-- Можно лучше: для изображения и его описания можете использовать тег figure
-                    Для описания лучше тег <figcaption>
-                        https://developer.mozilla.org/ru/docs/Web/HTML/Element/figure -->
             </section>
             <section class="intro page__intro">
                 <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -55,7 +49,6 @@
                     <p class="intro__data"><span class="intro__span-accent">Природных заповедников</span> 105</p>
                     <p class="intro__data"><span class="intro__span-accent">Аэропортов</span> 241</p>
                 </div>
-                <!-- Можно лучше: вместо div и p используйте тут ul li -->
             </section>
             <section class="photo-grid page__photo-grid">
                 <img class="photo-grid__item" src="./images/train.jpg" alt="Вид из окна поезда">
@@ -199,12 +192,10 @@
                     исследования</p>
                 <div class="video__container">
                     <a class="video__item video__item_img_kamchatka" href="https://vimeo.com/81106671" target="_blank">
-                        <!-- Отлично! Фоновое изображение вставлено с помощью css и модификатора -->
                         <img class="video__icon video__icon_type_play" src="./images/icon_play.svg"
                             alt="Иконка проигрывания">
                         <p class="video__duration">6:30</p>
                         <p class="video__title">Colors of Kamchatka</p>
-                        <!-- Можно лучше: для названия видео используйте тег заголовка -->
                         <p class="video__subtitle">Director: Pavel Karykhalin</p>
                     </a>
                     <a class="video__item video__item_img_observatory" href="https://vimeo.com/290675450"
@@ -226,7 +217,6 @@
                         <img class="comment__image" src="./images/lyagushkin.jpg" alt="Виктор Лягушкин">
                         <blockquote class="comment__quote">«Если вам кажется, что в России ничего не происходит, то
                             просто выгляньте “наружу”…»</blockquote>
-                        <!-- Отлично! Для цитаты использован семантический тег blockquote -->
 
                         <p class="comment__author">Виктор Лягушкин</p>
                     </div>
@@ -265,64 +255,8 @@
                 </ul>
             </nav>
             <p class="footer__copyright">&copy; 2020. Юлия Чечульникова </p>
-            <!-- Отлично! Для копирайта вы используете html мнемоники -->
         </footer>
     </div>
 </body>
 
 </html>
-
-
-
-
-<!-- В целом по работе: 
-
-
-      Отлично! Понравилось в работе:
-
-        - Файловая система и классы по БЭМ
-        - Страница валидна
-        - Использованы семантические теги и списки
-        - Для подзаголовков использованы параграфы
-        - Для переиспользования в проекте есть блоки
-        - Размечены все макеты
-        - На большом экране контент центрируется
-        - Все брейкпоинты внешне соответствуют макетам
-        - Учтены изменения шрифтов и размров блоков
-        - Аккуратное выравнивание блоков на странице
-
-
-Отличная работа! Критичные комментарии исправлены! Удачи в дальнейшем обучении!
- https://habr.com/ru/company/netologyru/blog/327294/
-
-
-
-    - между брейкпоинтами появляется горизонтальный скролл. проверьте фиксированную ширину и горизонтальные отстуы у блоков и элементов +
-
-    - на 375 и 320 горизонтальный скролл. страница смещена. проверка на визуальное соответствие проведется после устранения скролла +
-
-
-    Можно улучшить:
-
-    - Комментарии в разметке
-
-
-  Пожалуйста, не удаляйте комментарии
-Исправленные комментарии помечайте +
-
-Для получения зачета исправьте комментарии "Надо исправить"
-
-Полезные материалы:
-
-Масштабируемые шрифты
-- https://codepen.io/Maks113/pen/dgWpxE
-- https://codepen.io/CrocoDillon/pen/fBJxu
-- https://codepen.io/TrevorJTClarke/pen/GoJYOo
-- https://codepen.io/podolskiis/pen/erxmKW
-
-Плотность пикселей
-- https://vc.ru/design/19864-pixels-in-mobile-design
-
-Что должен знать фронтенд-разработчик
-- https://habr.com/ru/company/netologyru/blog/327294/
--->
