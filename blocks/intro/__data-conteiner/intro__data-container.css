@@ -1,0 +1,9 @@
+.intro__data-container {
+    min-width: 383px;
+}
+
+@media all and (max-width: 767px) {
+    .intro__data-container {
+        min-width: 0;
+    }
+}

@@ -1,0 +1,22 @@
+.header__lang {
+    margin: 0 12px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: right;
+    color: #FFFFFF;
+    text-decoration: none
+}
+
+.header__lang:hover {
+    opacity: 0.5;
+    transition: opacity .2s linear;
+}
+
+@media all and (max-width: 767px) {
+    .header__lang {
+        font-size: 18px;
+        line-height: 96.82%;
+    }
+}

@@ -1,0 +1,22 @@
+.page__photo-grid {
+    margin: 97px auto 0;
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px){
+    .page__photo-grid {
+        margin-top: 93px;
+
+    }
+}
+
+@media all and (max-width: 767px) {
+    .page__photo-grid {
+        margin-top: 59px;
+    }
+}
+
+@media all and (max-width: 374px) {
+    .page__photo-grid  {
+        margin-top: 65px;
+    }
+}

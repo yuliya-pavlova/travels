@@ -1,0 +1,44 @@
+@import url('./_line-height/content-title_line-height_m.css');
+@import url('./_line-height/content-title_line-height_s.css');
+
+.content-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    text-align: center;  
+    color: #FFFFFF;
+    max-width: 800px;
+    margin: 0 0 36px;
+    font-family: 'Inter', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+    .content-title {
+        margin-bottom: 30px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px){
+    .content-title {
+        font-size: 42px;
+        line-height: 46px;
+        max-width: 545px;
+        margin-bottom: 29px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .content-title {
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 21px;
+        max-width: 335px;
+    }
+}
+
+@media all and (max-width: 374px) {
+    .content-title {
+        max-width: 288px;
+        margin-bottom: 15px;
+    }
+}

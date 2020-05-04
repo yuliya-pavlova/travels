@@ -1,0 +1,25 @@
+@import url('./__nav-lang/header__nav-lang.css');
+@import url('./__logo/header__logo.css');
+@import url('./__lang/header__lang.css');
+@import url('./__lang/_selected/header__lang_selected.css');
+
+.header {
+    width: 1210px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+    .header {
+        width: 91%;
+    }
+}
+
+@media all and (max-width: 1023px){
+    .header {
+        width: 96%;
+    }
+}

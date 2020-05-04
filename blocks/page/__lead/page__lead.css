@@ -1,0 +1,9 @@
+.page__lead {
+    margin: 48px auto 0;
+}
+
+@media all and (max-width: 374px) {
+    .page__lead{
+        margin-top: 43px;
+    }
+}

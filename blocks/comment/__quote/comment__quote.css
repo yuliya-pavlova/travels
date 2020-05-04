@@ -1,0 +1,35 @@
+.comment__quote {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 37px 0 0;
+    max-width: 382px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+    .comment__quote  {
+        max-width: 296px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px){
+    .comment__quote {
+        order: 2;
+        text-align: inherit;
+        margin-top: 4px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .comment__quote {
+        order: 2;
+        text-align: inherit;
+        margin-top: 4px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+}

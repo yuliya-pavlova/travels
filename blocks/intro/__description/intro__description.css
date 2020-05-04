@@ -1,0 +1,32 @@
+.intro__description {
+    max-width: 683px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0 18px 12px 0;
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px){
+    .intro__description  {
+        max-width: 100%;
+        margin: 0 0 23px 0;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .intro__description {
+        max-width: 96%;
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+
+@media all and (max-width: 374px) {
+    .intro__description {
+        max-width: 89%;
+        line-height: 169.43%;
+        margin: 0 auto 35px auto;
+    }
+}

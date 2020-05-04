@@ -1,0 +1,9 @@
+.page__intro {
+    margin: 83px auto 0;
+}
+
+@media all and (max-width: 767px) {
+    .page__intro  {
+        margin-top: 61px;
+    }
+}

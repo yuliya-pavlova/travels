@@ -1,0 +1,15 @@
+.page__comments {
+    margin-top: 110px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+    .page__comments {
+        margin-top: 99px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .page__comments {
+        margin-top: 64px;
+    }
+}

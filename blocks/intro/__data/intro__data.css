@@ -1,0 +1,18 @@
+.intro__data {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+@media all and (max-width: 374px) {
+    .intro__data {
+        font-size: 12px;
+        line-height: 19px;
+        max-width: 89%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,51 @@
+@import url('../blocks/main-page/main-page.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/content-subtitle/content-subtitle.css');
+@import url('../blocks/content-title/content-title.css');
+@import url('../blocks/video/video.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/place/place.css');
+@import url('../blocks/places/places.css');
+@import url('../blocks/video/video.css');
+@import url('../blocks/comments/comments.css');
+@import url('../blocks/comment/comment.css');
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/footer/footer.css');
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: normal;
+    src: url('../fonts/Inter/Inter-Regular.woff2') format("woff2"),
+         url('../fonts/Inter/Inter-Regular.woff') format("woff");
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    font-style:  bold;
+    font-weight: bold;
+    src: url('../fonts/Inter/Inter-Bold.woff2') format("woff2"),
+         url('../fonts/Inter/Inter-Bold.woff') format("woff");
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url('../fonts/Inter/Inter-Black.woff2') format("woff2"),
+         url('../fonts/Inter/Inter-Black.woff') format("woff");
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../fonts/Inter/Inter-Medium.woff2') format("woff2"),
+         url('../fonts/Inter/Inter-Medium.woff') format("woff");
+  }
+

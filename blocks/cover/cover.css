@@ -1,0 +1,23 @@
+@import url('./__container/cover__container.css');
+@import url('./__subtitle/cover__subtitle.css');
+@import url('./__title/cover__title.css');
+
+.cover {
+    max-height: 594px;
+    font-family: 'Inter', 'Helvetica', 'Arial', 'sans-serif';
+    max-width: 1184px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+    .cover {
+      max-width: 1024px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px){
+  .cover {
+    max-width: 768px;
+  }
+}

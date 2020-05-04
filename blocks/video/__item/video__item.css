@@ -1,0 +1,60 @@
+@import url('./_img/video__item_img_kamchatka.css');
+@import url('./_img/video__item_img_observatory.css');
+
+.video__item {
+    width: 583px;
+    height: 323px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    text-decoration: none;
+    position: relative;
+    transition: opacity .2s ease;
+}
+
+.video__item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .5);
+    display: block;
+    opacity: 0.5;
+  }
+
+  .video__item:hover::before {
+	opacity: 0.8;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+  .video__item {
+    width: 456px;
+    height: 288px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px){
+  .video__item {
+     width: 352px;
+     height: 200px;
+  }
+}
+
+@media all and (max-width: 767px) and (min-width: 375px) {
+  .video__item  {
+    width: 343px;
+    height: 200px;
+    margin: 0 auto 8px;
+  }
+}
+
+@media all and (max-width: 374px) {
+  .video__item  {
+    width: 288px;
+    height: 192px;
+    margin: 0 auto 8px;
+  }
+}

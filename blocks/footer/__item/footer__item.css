@@ -1,0 +1,20 @@
+@media all and (min-width: 768px) and (max-width: 1023px){
+    .footer__item {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .footer__item {
+        font-size: 24px;
+        line-height: 41px;
+        margin-bottom: 15px;
+    }
+}
+
+@media all and (max-width: 374px) {
+    .footer__item {
+        margin-bottom: 15px;
+    }
+}

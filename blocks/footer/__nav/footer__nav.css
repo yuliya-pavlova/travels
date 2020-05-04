@@ -1,0 +1,13 @@
+.footer__nav {
+    display: flex;
+    max-width: 430px;
+    list-style-type: none;
+}
+
+@media all and (max-width: 767px) {
+    .footer__nav  {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+}

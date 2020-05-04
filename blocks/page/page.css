@@ -1,0 +1,18 @@
+@import url('./__header/page__header.css');
+@import url('./__comments/page__comments.css');
+@import url('./__cover/page__cover.css');
+@import url('./__footer/page__footer.css');
+@import url('./__intro/page__intro.css');
+@import url('./__lead/page__lead.css');
+@import url('./__photo-grid/page__photo-grid.css');
+@import url('./__places/page__places.css');
+@import url('./__video/page__video.css');
+
+.page {
+    font-family: 'Inter', 'Helvetica', 'Arial', 'sans-serif';
+    background-color: #2A2C2F;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    min-width: 320px;
+}

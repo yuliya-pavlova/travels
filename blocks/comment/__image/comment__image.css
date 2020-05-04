@@ -1,0 +1,11 @@
+.comment__image {
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px){
+    .comment__image {
+       margin-bottom: 5px;
+    }
+}
